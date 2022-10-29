@@ -1,8 +1,9 @@
-def reverse_string1(s):
+def rev():
     try:
-        return s[::-1]
-
         x = input("str - ")
-        print(reverse_string1(x))
+        print(x[::-1])
     except Exception as ex:
         print(f'Eror information: {ex}')
+
+
+rev()
